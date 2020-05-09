@@ -17,7 +17,6 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-
 		<?php
 		if ( have_posts() ) :
 
@@ -26,6 +25,7 @@ get_header();
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
+				<h1 class="text-primary h2">BCDL Underscores and Bootstrap theme</h1>
 				<?php
 			endif;
 
@@ -52,8 +52,7 @@ get_header();
 		?>
 
 	</main><!-- #main -->
-	
-	<h1 class="h2">BCDL Underscores and Bootstrap theme</h1>	
+		
 <?php
 get_sidebar();
 get_footer();

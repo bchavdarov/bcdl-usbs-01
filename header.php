@@ -47,7 +47,10 @@
 		</div><!-- .site-branding -->
 
 		 <!--nav site navigation-->
-			<button class="navbar-toggler menu-toggle" type="button" data-toggle="collapse" data-target="#bcdl-navbar-dropdown01" aria-controls="bcdl-navbar-dropdown01" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bcdl-usbs-01' ); ?></button>
+			<button class="navbar-toggler menu-toggle" type="button" data-toggle="collapse" data-target="#bcdl-navbar-dropdown01" aria-controls="bcdl-navbar-dropdown01" aria-expanded="false" aria-label="<?php esc_html_e( 'Primary Menu', 'bcdl-usbs-01' ); ?>">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
 			<?php
 			wp_nav_menu( array(
             'theme_location'    => 'primary',

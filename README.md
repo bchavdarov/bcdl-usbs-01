@@ -14,7 +14,12 @@ The installation is the same as described in:
 - [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
 
 for development first clone the repository then run
+
 <code>npm install</code>
+
+next, install Bootstrap:
+
+<code>npm install bootstrap</code>
 
 
 ### Creating custom style

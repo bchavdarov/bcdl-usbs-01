@@ -8,6 +8,14 @@ Starter theme compiled from Underscores and Bootstrap.
 
 Installation
 ---------------
+The installation is the same as described in:
+
+- [https://github.com/Automattic/_s](https://github.com/Automattic/_s)
+- [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+
+for development first clone the repository then run
+<code>npm install</code>
+
 
 ### Creating custom style
 Only edit <code>sass/_custom.scss</code> to create new styles. They will be compiled into theme.css

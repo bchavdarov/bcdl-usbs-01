@@ -199,5 +199,9 @@ function register_navwalker(){
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
 
+
+function bcdl_add_scripts() {
 wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/bcdlcss/theme.css' );
 wp_enqueue_script( 'bootstrap-js' , get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', array('jquery') );
+}
+add_action( 'wp_enqueue_scripts', 'bcdl_add_scripts' );

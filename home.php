@@ -14,9 +14,9 @@
 
 get_header();
 ?>
-
+	
 	<main id="primary" class="site-main">
-
+		<h1 class="text-primary">BCDL Underscores and Bootstrap starter theme.</h1>
 		<?php
 		if ( have_posts() ) :
 
@@ -25,7 +25,7 @@ get_header();
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
-				<h1 class="text-primary h2">BCDL Underscores and Bootstrap theme</h1>
+
 				<?php
 			endif;
 

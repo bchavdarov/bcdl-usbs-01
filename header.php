@@ -64,7 +64,7 @@
 	            'walker'            => new BCDL_WP_Bootstrap_Navwalker(),
 	        ) );
 	        ?>
-				?>
+
 			</nav><!-- #site-navigation -->
 		</header><!-- #masthead -->
 	</div>

@@ -17,10 +17,7 @@ for development first clone the repository then run
 
 <code>npm install</code>
 
-next, install Bootstrap:
-
-<code>npm install bootstrap</code>
-
+This will install all dependencies, including Bootstrap.
 
 ### Creating custom style
 Only edit <code>sass/_custom.scss</code> to create new styles. They will be compiled into theme.css

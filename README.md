@@ -45,7 +45,7 @@ Clone or download this repository, change its name to something else (like, say,
 Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
 
 
-### Available CLI commands
+### Available CLI commands (from Underscores and me)
 
 `_s` comes packed with CLI commands tailored for WordPress theme development :
 

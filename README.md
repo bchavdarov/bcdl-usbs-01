@@ -59,7 +59,6 @@ Then, update the stylesheet header in `style.css`, the links in `footer.php` wit
 - `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
 - `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+These are the tools offered from Underscores Bootstrap and me. Enjoy and make a good theme.
 
-Good luck!
 # bcdl-usbs-01

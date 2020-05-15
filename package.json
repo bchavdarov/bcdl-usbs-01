@@ -17,12 +17,12 @@
     "url": "https://github.com/Automattic/_s/issues"
   },
   "devDependencies": {
-    "@wordpress/scripts": "^9.0.0",
+    "@wordpress/scripts": "^9.1.0",
     "archiver": "^4.0.1",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "node-sass": "^4.14.0",
     "rtlcss": "^2.5.0",
-    "uglify-js": "^3.9.2"
+    "uglify-js": "^3.9.3"
   },
   "rtlcssConfig": {
     "options": {
@@ -45,7 +45,5 @@
     "lint:js": "wp-scripts lint-js 'js/*.js'",
     "bundle": "node bin/bundle.js"
   },
-  "dependencies": {
-    "bootstrap": "^4.4.1"
-  }
+  "dependencies": {}
 }

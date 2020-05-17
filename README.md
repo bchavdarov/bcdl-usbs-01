@@ -59,6 +59,8 @@ Then, update the stylesheet header in `style.css`, the links in `footer.php` wit
 - `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
 - `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
 
-These are the tools from Underscores, Bootstrap and me. Enjoy and make a good theme.
+These are the tools from Underscores, Bootstrap and me. 
+
+Enjoy and make a good theme.
 
 ## bcdl-usbs-01
